@@ -12,7 +12,7 @@ print("Programa para indicar si un numero es primo.")
 n = int(input("ingrese un numero: "))
 c = 0
 
-for i in (1, n+1):
+for i in range(1, n+1):
     if(n % i == 0):
         c += 1
 
